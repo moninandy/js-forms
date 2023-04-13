@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <h1 style="text-align: center; margin-top: 10px;">Feedback Form!!</h1>
+    <div class="container">
+        <form class="formsec" name="generalform">
+            <div>
+                <label for="name">Enter Your name
+                <input type="text" required="" placeholder="enter your name" id="name" class="name">
+                </label> 
+            </div>
+            
+            <div>
+                <label>Enter your mail'id
+                    <input type="email" required="" placeholder="abc@gmail.com" id ="email" name="email">
+                </label>
+                </div>
+
+      <div class="d-flex">   
+<div>
+            <label for="terms">Choose Course</label>
+                <input type="checkbox" id="terms"name="terms"> java
+</div>
+<div >
+                <label for="terms"></label>
+                <input type="checkbox" id="terms" name="terms"> React js
+</div>
+<div>
+                <label for="terms"></label>
+                <input type="checkbox" id="terms" name="terms"> python<br>
+</div>
+<div>
+    <label for="terms"></label>
+    <input type="checkbox" id="terms" name="terms">Asp.Net<br>
+</div>
+</div><br>
+
+<div class="f-flex">
+    <div>
+                <label for="gender">Choose your gender</label>
+                <input type="radio"required="" name="gender"id="gender" value="male"> male
+    </div>
+<div >
+                <label for="gender"></label>
+                <input type="radio" required="" name="gender"id="gender" value="female" >female
+                </div>
+                
+            </div>
+            <br>
+        <div>
+                    <label  for="phnumber" >Enter your phonenumber
+<input type="number" required="" name="phnumber" id="phnnumber" range="max-9 ,min-0" placeholder="9987656756">
+                    </label>
+</div><br>
+                <div>
+                    <textarea required="" placeholder="Feedback!" name="feedback"></textarea>
+                 </div>
+<div>
+                <button  onclick="addEventListener">Submit</button>
+</div>
+                
+        </form>
+    </div>
+    <script src="validate.js"></script>
+</body>
+</html>
